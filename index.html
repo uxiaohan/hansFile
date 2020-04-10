@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>韩小韩文件外链库</title>
+  <meta name="keywords" content="小韩,文件外链库,CDN存储,免费云盘,超星云盘,学习通云盘">
+  <meta name="description" content="韩小韩api接口 - 一个免费的文件外链库。">
+  <meta property="og:description" content="韩小韩文件外链库 - 一个免费的文件外链库">
+  <meta property="og:type" content="acticle">
+  <meta property="og:locale" content="zh-CN" />
+  <meta property="og:site_name" content="韩小韩文件外链库">
+  <meta property="og:title" content="韩小韩文件外链库">
+  <meta property="og:url" content="https://www.vvhan.com/" />
+  <meta itemprop="image" content="https://q1.qlogo.cn/g?b=qq&s=100&nk=1655466387" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link type="text/css" href="./assets/css/argon.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/dist/styles.imageuploader.css">
+  <script src="./assets/js/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+  <header class="header-global">
+    <nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+      <div class="container">
+        <a class="navbar-brand smooth " style="font-size: large" href="https://www.vvhan.com/">韩小韩文件外链库</a>
+        <button class="navbar-toggler" id="iconbtn" type="button" aria-expanded="true">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar_global">
+          <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://www.vvhan.com/" target="_blank" data-toggle="tooltip"
+                title="韩小韩博客">
+                <i class="fa fa-paper-plane"></i>
+                <span class="nav-link-inner--text d-lg-none">韩小韩博客</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://api.vvhan.com/" target="_blank" data-toggle="tooltip"
+                title="韩小韩API接口">
+                <i class="fa fa-bolt"></i>
+                <span class="nav-link-inner--text d-lg-none">韩小韩API接口</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://www.vvhan.com/about.html" target="_blank" a
+                data-toggle="tooltip" title="关于我我">
+                <i class="fa fa-asterisk"></i>
+                <span class="nav-link-inner--text d-lg-none">关于我我</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="https://github.com/uxiaohan" target="_blank" data-toggle="tooltip"
+                title="Star us on Github">
+                <i class="fa fa-github"></i>
+                <span class="nav-link-inner--text d-lg-none">Github</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!---->
+  <main class="profile-page">
+    <section class="section-profile-cover section-shaped my-0">
+      <div class="shape shape-style-1 shape-primary alpha-4">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="separator separator-bottom separator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+          xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="card card-profile shadow mt--300">
+          <div class="px-4">
+            <div class="row justify-content-center">
+              <div class="col-lg-3 order-lg-2">
+                <div class="card-profile-image">
+                  <a href="#">
+                    <img class="rounded-bottom" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="card-profile-stats d-flex justify-content-center">
+                  <div>
+                    <span class="heading">本站外链带绿标调用（下载）高速且稳定</span>
+                    <span class="description">最大文件上传（50MB）</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uploader__box js-uploader__box l-center-box">
+              <form action="#" method="POST">
+                <div class="uploader__contents">
+                  <label class="button button--secondary" for="fileinput">请选择文件</label>
+                  <input id="fileinput" class="uploader__file-input" type="file" value="Select Files">
+                </div>
+                <input class="button button--big-bottom" type="submit" value="Upload Selected Files">
+              </form>
+            </div>
+            <div class="card-profile-stats d-flex justify-content-center">
+              <div class="col-lg-12">
+                <span class="heading">外链地址</span>
+                <br>
+                <strong><span class="description" id="okurl"></span></strong>
+              </div>
+            </div>
+            <div class="hr mt-5"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row row-grid align-items-center mb-5">
+        <div class="col-lg-6">
+          <h3 class="text-primary font-weight-light mb-2">
+            帅气的韩小韩欢迎您~
+          </h3>
+        </div>
+        <div class="col-lg-6 text-lg-center btn-wrapper">
+          <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1655466387&site=qq&menu=yes"
+            class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
+            data-original-title="Follow us">
+            <i class="fa fa-qq"></i>
+          </a>
+          <a target="_blank" href="https://www.vvhan.com/"
+            class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
+            data-original-title="Follow us">
+            <i class="fa fa-dribbble"></i>
+          </a>
+          <a target="_blank" href="https://github.com/uxiaohan"
+            class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
+            data-original-title="Star on Github">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div class="row align-items-center justify-content-md-between">
+        <div class="col-md-12">
+          <div class="copyright">
+            <p>Copyright &copy; 2020 by <a href="https://www.vvhan.com/" target="_blank">韩小韩博客</a> . All rights
+              reserved.
+              <span style="float: right;"><span>Email:</span><a href="#">1655466387@qq.com</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Core -->
+  </div>
+  </div>
+  <script src="./assets/js/hanIndex.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="./assets/dist/jquery.imageuploader.js"></script>
+  <script>
+    $(function () {
+      var options = {};
+      $('.js-uploader__box').uploader({
+        'selectButtonCopy': '请选择或拖拽文件',
+        'instructionsCopy': '你可以选择或拖拽文件',
+        'submitButtonCopy': '上传'
+      });
+    });
+  </script>
+</body>
+
+</html>
