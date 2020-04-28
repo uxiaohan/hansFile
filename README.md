@@ -6,6 +6,6 @@
 
 ### 先来看看首页图片
 
-![韩小韩短连接生成](https://cdn.jsdelivr.net/gh/githubimg/www.vvhan.com/usr/uploads/2020/04/42768509.jpg)
+![韩小韩短连接生成](https://cdn.jsdelivr.net/gh/uxiaohan/GitImgTypecho/usr/uploads/2020/04/3423536555.jpg)
 
 ## 上传直接使用。
